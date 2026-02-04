@@ -1,0 +1,24 @@
+{
+    "name": "fv",
+    "version": "0.1.0",
+    "introduction": {
+        "auther": {
+            "name": "",
+            "email": "",
+            "github": "",
+            "blog": ""
+        }
+    },
+    "type": "project",
+    "license": "",
+    "description": "",
+    "requirement": {
+        "korelin": "1.0.0"
+    },
+    "doc": "",
+    "compiler": {
+        "main": "src/main.kri",
+        "bin": "./bin/"
+    },
+    "url": ""
+}

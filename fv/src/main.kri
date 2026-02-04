@@ -1,0 +1,6 @@
+// 2026 / 01 / 26 Rungo 一个常量版本
+import os.print;
+
+void main() {
+    print("Hello World\n");
+}

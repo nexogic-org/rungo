@@ -1,0 +1,15 @@
+# .gitignore
+bin/
+build/
+cmake-build-debug/
+.idea/
+*.exe
+*.obj
+*.o
+*.log
+.ninja_*
+CMakeCache.txt
+*.cmake
+CMakeFiles/
+out/
+rungo_modules/
