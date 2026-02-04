@@ -3,7 +3,6 @@
 
 #include <string>
 
-
-void init_project(const std::string& project_name, const std::string& template_name = "", const std::string& korelin_version = "");
+void init_project(const std::string& project_name, const std::string& template_name = "", const std::string& korelin_version = "", const std::string& project_version = "");
 
 #endif // RUNGO_INIT_HPP
