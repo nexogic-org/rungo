@@ -3,6 +3,7 @@
 #include "help.hpp"
 #include "init.hpp"
 #include "list.hpp"
+#include "run.hpp"
 
 int main(int argc, char* argv[]) {
     if (argc < 2) {
@@ -20,6 +21,8 @@ int main(int argc, char* argv[]) {
         init_project(argv[2]);
     } else if (command == "list") {
         list_packages();
+    } else if (command == "run") {
+        run_project();
     } else if (command == "install" || command == "uninstall") {
         std::cout << "Command '" << command << "' is not yet implemented." << std::endl;
     } else {
