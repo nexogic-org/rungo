@@ -64,8 +64,8 @@ void run_project() {
         return;
     }
 
-    // Construct command: korelin run <main_file> -lib project.json>requirement
-    std::string command = "korelin run " + main_file + " -lib project.json>requirement";
+    // Construct command: korelin run <main_file> -lib "project.json>requirement"
+    std::string command = "korelin run " + main_file + " -lib \"project.json>requirement\"";
 
     std::cout << "Executing: " << command << std::endl;
     
