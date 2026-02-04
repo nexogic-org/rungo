@@ -13,3 +13,6 @@ CMakeCache.txt
 CMakeFiles/
 out/
 rungo_modules/
+fv/
+a/
+*.user

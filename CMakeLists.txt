@@ -9,4 +9,5 @@ add_executable(rungo
     src/main.cpp
     src/help.cpp
     src/init.cpp
+    src/list.cpp
 )
